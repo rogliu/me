@@ -1,7 +1,6 @@
-baseURL = 'https://xiaolongbaooo.github.io/me'
+baseURL = 'https://xiaolongbaooo.github.io/blog'
 languageCode = 'en-us'
-title = "blog"
+title = "roger liu"
 theme = "PaperMod"
 description = "roger's blog"
-
 
