@@ -3,4 +3,19 @@ languageCode = 'en-us'
 title = "roger liu"
 theme = "PaperMod"
 description = "roger's blog"
+[menu]
+  [[menu.main]]
+  name = "Archive"
+  url = "archives"
+  weight = 5
+
+  [[menu.main]]
+  name = "Search"
+  url = "search/"
+  weight = 10
+
+  [[menu.main]]
+  name = "Tags"
+  url = "tags/"
+  weight = 10
 
