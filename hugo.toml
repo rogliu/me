@@ -1,0 +1,7 @@
+baseURL = 'https://xiaolongbaooo.github.io/me'
+languageCode = 'en-us'
+title = "blog"
+theme = "PaperMod"
+description = "roger's blog"
+
+
