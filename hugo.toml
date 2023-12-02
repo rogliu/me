@@ -9,13 +9,65 @@ description = "roger's blog"
   url = "archives"
   weight = 5
 
-  [[menu.main]]
-  name = "Search"
-  url = "search/"
-  weight = 10
+  # [[menu.main]]
+  # name = "Search"
+  # url = "search/"
+  # weight = 10
 
   [[menu.main]]
   name = "Tags"
   url = "tags/"
   weight = 10
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
+[params]
+  env = "production"
+  description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author = "Theme PaperMod"
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  images = ["papermod-cover.png"]
+
+  [params.profileMode]
+    enabled = false
+    title = "PaperMod"
+    imageUrl = "#"
+    imageTitle = "my image"
+    [[params.profileMode.buttons]]
+      name = "Archives"
+      url = "archives"
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags"
+
+  [params.homeInfoParams]
+    Title = "blog"
+    Content = "Writing about topics that interest me.\n\n Working on performance at **AWS Redshift**."
+
+  [[params.socialIcons]]
+    name = "spotify"
+    url = "https://open.spotify.com/user/22qohczfhi6s643sfvmi4hz4i?si=37d556e1dbe8470a"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/rogerliu37/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/xiaolongbaooo"
+
+
+
+
+
+[taxonomies]
+  tag = "tags"
